@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/logicmonitor/k8s-asg-lifecycle-manager/pkg/event"
-	"github.com/logicmonitor/k8s-asg-lifecycle-manager/pkg/types"
+	"github.com/azihsoyn/k8s-asg-lifecycle-manager/pkg/event"
+	"github.com/azihsoyn/k8s-asg-lifecycle-manager/pkg/types"
 	log "github.com/sirupsen/logrus"
 )
 

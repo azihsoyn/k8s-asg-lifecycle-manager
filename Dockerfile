@@ -1,7 +1,7 @@
-FROM golang:1.8.7-alpine3.6 AS build
+FROM golang:1.14.5 AS build
 RUN apk --update add curl
-ENV KUBERNETES_VERSION="v1.9.3"
-WORKDIR $GOPATH/src/github.com/logicmonitor/k8s-asg-lifecycle-manager
+ENV KUBERNETES_VERSION="v1.18.2"
+WORKDIR $GOPATH/src/github.com/azihsoyn/k8s-asg-lifecycle-manager
 COPY ./ ./
 RUN go build -o /asg-lifecycle-manager
 RUN curl -L "https://storage.googleapis.com/kubernetes-release/release/${KUBERNETES_VERSION}/bin/linux/amd64/kubectl" -o /kubectl \
