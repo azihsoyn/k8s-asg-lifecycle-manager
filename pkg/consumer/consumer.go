@@ -7,10 +7,10 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/autoscaling"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/logicmonitor/k8s-asg-lifecycle-manager/pkg/constants"
-	"github.com/logicmonitor/k8s-asg-lifecycle-manager/pkg/node"
-	"github.com/logicmonitor/k8s-asg-lifecycle-manager/pkg/queue"
-	"github.com/logicmonitor/k8s-asg-lifecycle-manager/pkg/types"
+	"github.com/azihsoyn/k8s-asg-lifecycle-manager/pkg/constants"
+	"github.com/azihsoyn/k8s-asg-lifecycle-manager/pkg/node"
+	"github.com/azihsoyn/k8s-asg-lifecycle-manager/pkg/queue"
+	"github.com/azihsoyn/k8s-asg-lifecycle-manager/pkg/types"
 	log "github.com/sirupsen/logrus"
 )
 
